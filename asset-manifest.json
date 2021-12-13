@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/HackWIE-VCare/static/css/main.cef755fe.chunk.css",
-    "main.js": "/HackWIE-VCare/static/js/main.2c1cdd77.chunk.js",
-    "main.js.map": "/HackWIE-VCare/static/js/main.2c1cdd77.chunk.js.map",
+    "main.js": "/HackWIE-VCare/static/js/main.d4bbbc9e.chunk.js",
+    "main.js.map": "/HackWIE-VCare/static/js/main.d4bbbc9e.chunk.js.map",
     "runtime-main.js": "/HackWIE-VCare/static/js/runtime-main.b722632b.js",
     "runtime-main.js.map": "/HackWIE-VCare/static/js/runtime-main.b722632b.js.map",
-    "static/js/2.24bac55e.chunk.js": "/HackWIE-VCare/static/js/2.24bac55e.chunk.js",
-    "static/js/2.24bac55e.chunk.js.map": "/HackWIE-VCare/static/js/2.24bac55e.chunk.js.map",
+    "static/js/2.c6a219a7.chunk.js": "/HackWIE-VCare/static/js/2.c6a219a7.chunk.js",
+    "static/js/2.c6a219a7.chunk.js.map": "/HackWIE-VCare/static/js/2.c6a219a7.chunk.js.map",
     "index.html": "/HackWIE-VCare/index.html",
     "static/css/main.cef755fe.chunk.css.map": "/HackWIE-VCare/static/css/main.cef755fe.chunk.css.map",
-    "static/js/2.24bac55e.chunk.js.LICENSE.txt": "/HackWIE-VCare/static/js/2.24bac55e.chunk.js.LICENSE.txt",
+    "static/js/2.c6a219a7.chunk.js.LICENSE.txt": "/HackWIE-VCare/static/js/2.c6a219a7.chunk.js.LICENSE.txt",
     "static/media/bg.0244308a.mp4": "/HackWIE-VCare/static/media/bg.0244308a.mp4",
     "static/media/logo.30fb0980.jpeg": "/HackWIE-VCare/static/media/logo.30fb0980.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.b722632b.js",
-    "static/js/2.24bac55e.chunk.js",
+    "static/js/2.c6a219a7.chunk.js",
     "static/css/main.cef755fe.chunk.css",
-    "static/js/main.2c1cdd77.chunk.js"
+    "static/js/main.d4bbbc9e.chunk.js"
   ]
 }
