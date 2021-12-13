@@ -4,3 +4,64 @@ video {
   opacity: 0.4;
   z-index: -1;
 }
+
+.navbtn {
+  transition: all 0.4s;
+  margin: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  width: auto;
+  border: 1.5px solid black;
+  text-align: center;
+  font-weight: 500;
+}
+
+.navbtn:hover {
+  background-color: rgb(61, 207, 61);
+  transform: scale(1.1);
+}
+
+hr {
+  margin-top: 0;
+}
+
+.button {
+  font-weight: bolder;
+  margin-top: 15vh;
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 2px solid black;
+  transition: all 0.5s;
+  border-radius: 1.25rem;
+}
+
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(61, 207, 61);
+  transform: translateX(1rem);
+}
+
+@media screen and (max-width: 1200px) {
+  video {
+    height: 100%;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  video {
+    right: -25%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h6 {
+    font-size: 0.9rem;
+  }
+}

@@ -1,28 +1,15 @@
 import React from 'react'
-import logo from "../media/logo.jpeg"
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
     return (
-        <div className='container'>
-            <div class="heading">
-                <div class="text">
-                    <div class="text-center">
-                        <h1>VCare</h1>
-                        <p>We Care We Plant </p>
-                    </div>
-                    <button class="btn"> <a href="login.html">Log In</a></button>
-                    <button class="btn"><a href="signup.html">Sign Up</a></button>
-                </div>
-            </div>
-            <div class="text-box">
-                <h3>We help the World deal with problems like </h3>
-                <br />
-                <h1><span class="auto-input"></span></h1>
-                <button class="btn">
-                    <a href="/index2.html">Let's Save the World</a>
-                </button>
-            </div>
+        <div className="container" style={{marginTop:"20vh"}}>
+            <h2>We help the World deal with problems like </h2>
+            <h1 style={{color:'green'}}><span className="auto-input"></span></h1>
+            <button className="button">
+                <Link to="/solution">Let's Save the World &#10148;</Link>
+            </button>
         </div>
     )
 }
