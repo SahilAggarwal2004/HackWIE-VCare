@@ -5,13 +5,13 @@ video {
   z-index: -1;
 }
 
-.navbtn {
+.navbtn{
   transition: all 0.4s;
   margin: 0.25rem 0.5rem;
   border-radius: 0.5rem;
   padding: 0.25rem;
   width: auto;
-  border: 1.5px solid black;
+  border: 1.5px solid white;
   text-align: center;
   font-weight: 500;
 }
@@ -27,7 +27,7 @@ hr {
 
 .button {
   font-weight: bolder;
-  margin-top: 15vh;
+  margin-top: 10vh;
   padding: 0.5rem 2rem;
   font-size: 1.25rem;
   background-color: transparent;
@@ -55,12 +55,18 @@ hr {
 }
 
 @media screen and (max-width: 900px) {
+  :root {
+    font-size: 14px;
+  }
   video {
     right: -25%;
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 500px) {
+  :root {
+    font-size: 12px;
+  }
   h6 {
     font-size: 0.9rem;
   }

@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Navbar from './components/Navbar';
+import Welcome from './components/Welcome';
 import Home from './components/Home';
 import Threat from './components/Threat';
 import Solution from './components/Solution';
@@ -17,14 +18,13 @@ function App() {
     <>
       <Router>
         <video autoPlay loop muted src={video} type="video/mp4" />
-        <Navbar />
-        <hr />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/threat" element={<Threat />} />
-          <Route path="/solution" element={<Solution />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Welcome />} />
+          <Route path="/home" element={<><Navbar /><Home /></>} />
+          <Route path="/threat" element={<><Navbar /><Threat /></>} />
+          <Route path="/solution" element={<><Navbar /><Solution /></>} />
+          <Route path="/about" element={<><Navbar /><About /></>} />
+          <Route path="/contact" element={<><Navbar /><Contact /></>} />
         </Routes>
       </Router>
 

@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import logo from "../media/logo.jpeg"
 
-export default function Navbar() {
+export default function Navbar(props) {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
+        <nav className="navbar navbar-expand-lg navbar-dark sticky-top" style={{ backgroundColor: "rgba(0,0,0,0.6)" }}>
             <div className="container-fluid">
                 <img src={logo} alt="" style={{ width: "3.5rem", marginRight: "2vw" }} />
                 <Link className="navbar-brand text-center" to="/">
@@ -17,7 +17,7 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link className="nav-link active navbtn" aria-current="page" to="/">Home</Link>
+                            <Link className="nav-link active navbtn" aria-current="page" to="/home">Home</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link active navbtn" to="/threat">Threats</Link>
