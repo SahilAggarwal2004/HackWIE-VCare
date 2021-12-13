@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-transparent sticky-top">
             <div className="container-fluid">
                 <img src={logo} alt="" style={{ width: "3.5rem", marginRight: "2vw" }} />
-                <a className="navbar-brand text-center" href="/">
+                <a className="navbar-brand text-center" href="/HackWIE-VCare">
                     <h4>VCare</h4>
                     <h6 className="my-0">We Care We Plant</h6>
                 </a>
@@ -17,7 +17,7 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active navbtn" aria-current="page" href="/">Home</a>
+                            <a className="nav-link active navbtn" aria-current="page" href="/HackWIE-VCare">Home</a>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link active navbtn" to="/threat">Threats</Link>
