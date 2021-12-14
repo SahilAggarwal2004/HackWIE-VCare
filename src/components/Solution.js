@@ -3,7 +3,7 @@ import Item from './Item'
 
 export default function Solution(props) {
     return (
-        <div className='container grids' style={{ marginTop: "5vh" }}>
+        <div className='container' style={{ marginTop: "5vh" }}>
             <h2 className='text-center'>Solutions</h2>
             <div className="row">
                 <div className={`${props.col} d-flex justify-content-center`}>

@@ -1,4 +1,5 @@
 import './App.css';
+import './style2.css';
 import {
   HashRouter as Router,
   Routes,
@@ -9,10 +10,8 @@ import Welcome from './components/Welcome';
 import Home from './components/Home';
 import Threat from './components/Threat';
 import Solution from './components/Solution';
-import About from './components/About';
 import Contact from './components/Contact';
 import Success from './components/Success';
-import video from "./media/bg.mp4"
 import { useState } from 'react';
 
 function App() {
@@ -28,13 +27,11 @@ function App() {
   return (
     <div id="width">
       <Router>
-        <video autoPlay loop muted src={video} type="video/mp4" />
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/home" element={<><Navbar /><Home /></>} />
           <Route path="/threat" element={<><Navbar /><Threat col={col} /></>} />
           <Route path="/solution" element={<><Navbar /><Solution col={col} /></>} />
-          <Route path="/about" element={<><Navbar /><About /></>} />
           <Route path="/contact" element={<><Navbar /><Contact /></>} />
           <Route path="/contact/success" element={<><Navbar /><Success /></>} />
         </Routes>
