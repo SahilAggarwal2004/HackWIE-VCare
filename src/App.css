@@ -5,24 +5,23 @@ video {
   z-index: -1;
 }
 
-.navbtn{
+.navbtn {
+  color: white;
   transition: all 0.4s;
   margin: 0.25rem 0.5rem;
   border-radius: 0.5rem;
-  padding: 0.25rem;
+  padding: 0.25rem 0.5rem;
   width: auto;
   border: 1.5px solid white;
   text-align: center;
   font-weight: 500;
+  background-color: transparent;
 }
 
 .navbtn:hover {
+  color: white;
   background-color: rgb(61, 207, 61);
   transform: scale(1.1);
-}
-
-hr {
-  margin-top: 0;
 }
 
 .button {
@@ -47,6 +46,47 @@ hr {
   transform: translateX(1rem);
 }
 
+
+.login {
+  margin: auto;
+  margin-top: 5vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  text-align: center;
+  display: inline-block;
+  padding: 5vh 4vw;
+  color: white;
+}
+
+
+.input-box {
+  border-bottom: 1px solid white;
+  margin: 1.5rem 2.5rem;
+}
+
+.input-box input {
+  width: 75%;
+  border: none;
+  background: transparent;
+  color: white;
+  outline: none;
+}
+
+.input-box input::placeholder {
+  color: white;
+}
+
+.fa {
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  background-color: white;
+  color: black;
+}
+
 @media screen and (max-width: 1200px) {
   video {
     height: 100%;
@@ -55,18 +95,18 @@ hr {
 }
 
 @media screen and (max-width: 900px) {
-  :root {
-    font-size: 14px;
-  }
   video {
     right: -25%;
   }
 }
 
-@media screen and (max-width: 500px) {
-  :root {
-    font-size: 12px;
+@media screen and (min-width: 410px) and (max-width: 575px) {
+  .container {
+    padding: 0 10vw;
   }
+}
+
+@media screen and (max-width: 500px) {
   h6 {
     font-size: 0.9rem;
   }

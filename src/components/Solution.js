@@ -1,12 +1,12 @@
 import React from 'react'
 import Item from './Item'
 
-export default function Solution() {
+export default function Solution(props) {
     return (
-        <div className='container' style={{ marginTop: "5vh" }}>
+        <div className='container grids' style={{ marginTop: "5vh" }}>
             <h2 className='text-center'>Solutions</h2>
             <div className="row">
-                <div className="col-md-4 d-flex justify-content-center">
+                <div className={`${props.col} d-flex justify-content-center`}>
                     <Item
                         url="https://i0.wp.com/cqunilife.com/wp-content/uploads/2019/10/P_SOC_I_190311_DitchDisposables_CQUniLifeBlog.png?w=1200&ssl=1"
                         title="Say NO to disposable"
@@ -17,7 +17,7 @@ export default function Solution() {
                             "Consider buying bulk containers of your preferred beverages and refilling a reusable bottle, instead of buying individually packaged drinks",
                             "Use rechargeable batteries"]} />
                 </div>
-                <div className="col-md-4 d-flex justify-content-center">
+                <div className={`${props.col} d-flex justify-content-center`}>
                     <Item
                         url="https://scontent-del1-1.xx.fbcdn.net/v/t1.18169-9/559556_415818555105065_648946612_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=wfWkLkC6SJ8AX9xB6aj&_nc_ht=scontent-del1-1.xx&oh=01cb44be7d27b443ac9eb687e5836f8f&oe=61DCCE45"
                         title="Pass on paper"
@@ -28,7 +28,7 @@ export default function Solution() {
                             "Look at labels to make sure you only use FSC-certified wood and paper products",
                             "Cut out products made by palm oil companies that contribute to deforestation in Indonesia and Malaysia"]} />
                 </div>
-                <div className="col-md-4 d-flex justify-content-center">
+                <div className={`${props.col} d-flex justify-content-center`}>
                     <Item
                         url="https://www.4-you.gr/images/blog/save-environment.jpg"
                         title="Conserve water & electricity"
@@ -38,7 +38,7 @@ export default function Solution() {
                             "Remove chemicals based products, use eco-friendly pesticides and herbicides that won’t contaminate groundwater",
                             "Consider signing up for a renewable energy producer that uses 100% renewable energy to power homes"]} />
                 </div>
-                <div className="col-md-4 d-flex justify-content-center">
+                <div className={`${props.col} d-flex justify-content-center`}>
                     <Item
                         url="https://www.maxpixel.net/static/photo/2x/Tree-Butterfly-Sustainability-Energy-Globe-5725540.jpg"
                         title="Support environment friendly"
@@ -50,7 +50,7 @@ export default function Solution() {
                             "Builds up the local economy",
                             "Uses fewer chemicals for both for growing and transporting"]} />
                 </div>
-                <div className="col-md-4 d-flex justify-content-center">
+                <div className={`${props.col} d-flex justify-content-center`}>
                     <Item
                         url="https://live.staticflickr.com/65535/50169473338_d20242cf09_b.jpg"
                         title="Recycle"
@@ -59,7 +59,7 @@ export default function Solution() {
                             "Educate yourself about what can and cannot be recycled, as not all plastic and cardboard is acceptable (like pizza boxes for example, due to the grease) (click here for a simple 101)",
                             "Learn how to identify and dispose of hazardous waste properly (click here to learn more)"]} />
                 </div>
-                <div className="col-md-4 d-flex justify-content-center">
+                <div className={`${props.col} d-flex justify-content-center`}>
                     <Item
                         url="https://cdn.pixabay.com/photo/2015/03/21/10/26/environmental-protection-683437_1280.jpg"
                         title="Conclusion"
@@ -68,7 +68,7 @@ export default function Solution() {
                             "Remember to highlight your successes and share them with others!"]} />
                 </div>
             </div>
-            <h3 className='text-center'><a href="https://www.google.com/search?q=%23savetheplanet" target="_blank">#savetheplanet</a></h3>
+            <h3 className='text-center'><a href="https://www.google.com/search?q=%23savetheplanet" target="_blank" rel="noreferrer">#savetheplanet</a></h3>
         </div >
     )
 }
