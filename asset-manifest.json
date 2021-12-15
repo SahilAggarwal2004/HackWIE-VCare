@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/HackWIE-VCare/static/css/main.803463a5.chunk.css",
-    "main.js": "/HackWIE-VCare/static/js/main.7041b84c.chunk.js",
-    "main.js.map": "/HackWIE-VCare/static/js/main.7041b84c.chunk.js.map",
+    "main.css": "/HackWIE-VCare/static/css/main.b212d5d9.chunk.css",
+    "main.js": "/HackWIE-VCare/static/js/main.5e019647.chunk.js",
+    "main.js.map": "/HackWIE-VCare/static/js/main.5e019647.chunk.js.map",
     "runtime-main.js": "/HackWIE-VCare/static/js/runtime-main.b722632b.js",
     "runtime-main.js.map": "/HackWIE-VCare/static/js/runtime-main.b722632b.js.map",
-    "static/js/2.70f2ade0.chunk.js": "/HackWIE-VCare/static/js/2.70f2ade0.chunk.js",
-    "static/js/2.70f2ade0.chunk.js.map": "/HackWIE-VCare/static/js/2.70f2ade0.chunk.js.map",
+    "static/js/2.ff0e2414.chunk.js": "/HackWIE-VCare/static/js/2.ff0e2414.chunk.js",
+    "static/js/2.ff0e2414.chunk.js.map": "/HackWIE-VCare/static/js/2.ff0e2414.chunk.js.map",
     "index.html": "/HackWIE-VCare/index.html",
-    "static/css/main.803463a5.chunk.css.map": "/HackWIE-VCare/static/css/main.803463a5.chunk.css.map",
-    "static/js/2.70f2ade0.chunk.js.LICENSE.txt": "/HackWIE-VCare/static/js/2.70f2ade0.chunk.js.LICENSE.txt",
+    "static/css/main.b212d5d9.chunk.css.map": "/HackWIE-VCare/static/css/main.b212d5d9.chunk.css.map",
+    "static/js/2.ff0e2414.chunk.js.LICENSE.txt": "/HackWIE-VCare/static/js/2.ff0e2414.chunk.js.LICENSE.txt",
     "static/media/bg.35e745ac.mp4": "/HackWIE-VCare/static/media/bg.35e745ac.mp4",
-    "static/media/logo.30fb0980.jpeg": "/HackWIE-VCare/static/media/logo.30fb0980.jpeg"
+    "static/media/logo.30fb0980.jpeg": "/HackWIE-VCare/static/media/logo.30fb0980.jpeg",
+    "static/media/mabel.a547be21.png": "/HackWIE-VCare/static/media/mabel.a547be21.png",
+    "static/media/mike.f586db54.jpeg": "/HackWIE-VCare/static/media/mike.f586db54.jpeg",
+    "static/media/sahil.f8b0c592.jpeg": "/HackWIE-VCare/static/media/sahil.f8b0c592.jpeg",
+    "static/media/sean.b0b1409c.png": "/HackWIE-VCare/static/media/sean.b0b1409c.png",
+    "static/media/shivansh.8c3545b7.jpeg": "/HackWIE-VCare/static/media/shivansh.8c3545b7.jpeg",
+    "static/media/tarun.74a5aba4.jpg": "/HackWIE-VCare/static/media/tarun.74a5aba4.jpg",
+    "static/media/tisha.e25a2db0.jpeg": "/HackWIE-VCare/static/media/tisha.e25a2db0.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.b722632b.js",
-    "static/js/2.70f2ade0.chunk.js",
-    "static/css/main.803463a5.chunk.css",
-    "static/js/main.7041b84c.chunk.js"
+    "static/js/2.ff0e2414.chunk.js",
+    "static/css/main.b212d5d9.chunk.css",
+    "static/js/main.5e019647.chunk.js"
   ]
 }
