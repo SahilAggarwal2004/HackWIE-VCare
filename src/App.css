@@ -20,6 +20,23 @@
   transform: translate(-50%, -50%);
 }
 
+.button {
+  font-weight: bolder;
+  margin-top: 10vh;
+  padding: 0.5rem 2rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 2px solid black;
+  transition: all 0.5s;
+  border-radius: 1.25rem;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(61, 207, 61);
+  transform: translateX(1rem);
+}
+
 .navbtn, .submit {
   color: white;
   transition: all 0.4s;
@@ -39,21 +56,99 @@
   transform: scale(1.1);
 }
 
-.button {
-  font-weight: bolder;
-  margin-top: 10vh;
-  padding: 0.5rem 2rem;
-  font-size: 1.25rem;
-  background-color: transparent;
-  border: 2px solid black;
-  transition: all 0.5s;
-  border-radius: 1.25rem;
+.carousel-item img {
+  height: 85.6vh;
+  opacity: 0.4;
 }
 
-.button:hover {
-  cursor: pointer;
-  background-color: rgb(61, 207, 61);
-  transform: translateX(1rem);
+.info {
+  padding: 2vw;
+  transition: transform 0.5s;
+  text-align: center;
+}
+
+.info img {
+  width: 8rem;
+  height: 10rem;
+  margin: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.info:hover {
+  transform: translateY(-1rem);
+}
+
+.places img {
+  padding: 2%;
+  width: 40vw;
+}
+
+.place1, .place2 {
+  background-color: lightyellow;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.place2 {
+  background-color: lightsteelblue;
+  flex-direction: row-reverse;
+}
+
+.submit {
+  color: black;
+}
+
+.submit:hover {
+  color: rgb(255, 235, 205);
+  background-color: black;
+  transform: scale(1.2);
+}
+
+.yellow:hover {
+  color: lightyellow;
+}
+
+.purple:hover {
+  color: lightsteelblue;
+}
+
+.exp img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+.logos {
+  transition: all 0.4s;
+  opacity: 0.5;
+  width: 10rem;
+  height: 6rem;
+}
+
+.logos:hover {
+  transform: translateY(-0.3rem);
+  opacity: 1;
+}
+
+.fa {
+  padding: 0.625rem;
+  margin: 0.25rem;
+  border-radius: 50%;
+  width: 2.25rem;
+}
+
+.fa-star {
+  width: auto;
+}
+
+.fa-footer {
+  color: white;
+}
+
+.fa-footer:hover {
+  filter: brightness(1.2);
 }
 
 .login {
@@ -66,7 +161,6 @@
   padding: 5vh 4vw;
   border: 2px solid black;
 }
-
 
 .input-box {
   border-bottom: 1px solid black;
@@ -81,32 +175,29 @@
   outline: none;
 }
 
-.fa {
-  padding: 0.25rem;
-  margin: 0.25rem;
-}
-
-.submit {
-  color: black;
-}
-
-.submit:hover {
-  color: rgb(255, 235, 205);
-  background-color: black;
-  transform: scale(1.2);
-}
-
-@media screen and (max-width: 1200px) {
-  video {
-    height: 100%;
-    width: auto;
+@media only screen and (max-width: 767px) {
+  .carousel-item img {
+    height: 60vh;
   }
-}
 
-@media screen and (min-width: 410px) and (max-width: 767px) {
-  .container {
-    padding: 0 10vw;
+  .place1, .place2 {
+    flex-direction: column;
   }
+
+  .places img {
+    width: 60vw;
+  }
+
+  .pcontent {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 410px) {
+    .container {
+      padding: 0 10vw;
+    }
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -116,5 +207,9 @@
 
   .carousel-item img {
     height: 40vh;
+  }
+
+  .carousel-caption h5 {
+    display: none;
   }
 }
