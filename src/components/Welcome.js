@@ -14,14 +14,14 @@ export default function Home() {
             </div>
             <div className="container text-center">
                 <div className="d-flex w-auto justify-content-center align-items-center" style={{ padding: "10vh" }}>
-                    <img src={logo} alt="" style={{ width: "10rem" }} />
+                    <img src={logo} alt="" style={{ width: "9rem", borderRadius: "10%" }} />
                     <div className='mx-4'>
                         <h1>VCare</h1>
                         <h4>We Care We Plant</h4>
                     </div>
                 </div>
                 <h2>We help the World to deal with problems like </h2>
-                <h1 style={{ color: 'green' }}>
+                <h1 style={{ color: 'green', fontSize:"3rem" }}>
                     <Typed strings={typed} typeSpeed={100} backSpeed={100} loop />
                 </h1>
                 <Link className='btn button' to="/home">Let's Save the World &#10148;</Link>

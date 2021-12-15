@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import About from './About'
 import Carousel from './Carousel'
 import Experiences from './Experiences'
@@ -8,6 +8,11 @@ import Partners from './Partners'
 import Places from './Places'
 
 export default function Home() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <Navbar />

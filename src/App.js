@@ -110,7 +110,8 @@ function App() {
           <Route path="/threat" element={<Cards head="Threats" link={false} col={col} items={threatItems} />} />
           <Route path="/solution" element={<Cards head="Solutions" link={true} col={col} items={solItems} />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/contact/success" element={<Success />} />
+          <Route path="/contact/success" element={<Success head="Thank you! Your application has been successfully submitted." sub="We will get in touch with you over the provided mail id." />} />
+          <Route path="/donate/success" element={<Success head="Thank You! You have made a step to save our planet." sub="We will get in touch with you over the provided mail id for the payment details." />} />
         </Routes>
       </Router>
 

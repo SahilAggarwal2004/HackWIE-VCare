@@ -6,7 +6,7 @@ export default function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-lg bg-black sticky-top">
             <div className="container-fluid">
-                <img src={logo} alt="" style={{ width: "3.5rem", marginRight: "2vw" }} />
+                <img src={logo} alt="" style={{ width: "3.5rem", marginRight: "2vw", borderRadius: "10%" }} />
                 <Link className="navbar-brand text-center text-white" to="/">
                     <h4>VCare</h4>
                     <h6 className="my-0">We Care We Plant</h6>

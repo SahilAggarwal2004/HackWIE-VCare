@@ -72,6 +72,8 @@
   height: 10rem;
   margin: 0.5rem;
   margin-bottom: 1.5rem;
+  border: 1.5px solid white;
+  outline: 1.5px solid black;
 }
 
 .info:hover {
@@ -106,18 +108,26 @@
   transform: scale(1.2);
 }
 
+.white:hover {
+  color: white;
+}
+
 .yellow:hover {
   color: lightyellow;
+  transform: scale(1.1);
 }
 
 .purple:hover {
   color: lightsteelblue;
+  transform: scale(1.1);
 }
 
 .exp img {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
+  border: 1.5px solid white;
+  outline: 1.5px solid black;
 }
 
 .logos {
@@ -140,6 +150,7 @@
 }
 
 .fa-star {
+  padding: 0.25rem;
   width: auto;
 }
 
@@ -164,15 +175,27 @@
 
 .input-box {
   border-bottom: 1px solid black;
-  margin: 1.5rem 2.5rem;
+  margin: 1.5rem 2.4rem;
 }
 
 .input-box input {
   font-weight: 500;
-  width: 75%;
+  width: 78.6%;
   border: none;
   background: transparent;
   outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
 }
 
 @media only screen and (max-width: 767px) {
