@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 export default function Solution(props) {
 
     useEffect(() => {
-        window.scrollTo(0, 0)
+        window.scrollTo(0, 0) // window.scrollTo(0, 0) scrolls the window to the top
     }, [])
 
     return (

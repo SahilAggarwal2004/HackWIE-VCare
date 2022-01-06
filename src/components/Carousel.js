@@ -1,3 +1,5 @@
+// Code for Bootstrap Carousel
+
 import React from 'react'
 
 export default function Carousel() {

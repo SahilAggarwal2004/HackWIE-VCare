@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // importing useNavigate hook
 import Footer from './Footer';
 import Navbar from './Navbar';
 
 export default function Contact() {
 
-    const navigate = useNavigate()
+    const navigate = useNavigate() // initializing useNavigate() by storing it into a variable as it can't be directly called inside return
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -37,7 +37,7 @@ export default function Contact() {
                         </div>
                         <button className="submit" style={{ marginTop: "0.25rem", display: "inline-block", border: "1.5px solid black" }} onClick={(event) => {
                             event.preventDefault()
-                            navigate("/contact/success")
+                            navigate("/contact/success") // navigate(url) - navigate is the variable used while initializing the useNavigate() hook
                         }}>Submit</button>
                         <button className="submit" style={{ marginTop: "0.25rem", display: "inline-block", border: "1.5px solid black" }} onClick={(event) => {
                             event.preventDefault()
